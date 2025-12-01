@@ -47,11 +47,6 @@
   transition: transform 0.2s ease, background 0.2s ease;
 }
 
-.brand-logo:hover {
-  transform: translateY(-1px);
-  background: rgba(92, 107, 192, 0.2);
-}
-
 .brand-logo img {
   display: block;
   height: clamp(52px, 6vw, 70px);
