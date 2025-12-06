@@ -17,7 +17,7 @@ const heroHighlights = [
 ]
 
 const qualityPromise = [
-  'Top-grade gasoline and diesel',
+  'Top-grade gasoline',
   'Clean and inspected storage tanks',
   'High-flow pumps for quick refueling',
   'Regular maintenance and safety checks',
@@ -46,7 +46,6 @@ const commitments = [
 
 const locationServices = [
   'Regular, Mid-Grade, Premium Fuel',
-  'Diesel (if applicable)',
   'Convenience store (No lottery, no alcohol)',
   'Drinks, snacks, coffee',
   'Automotive products',
@@ -57,7 +56,6 @@ const petroleumProducts = [
   'Regular (87)',
   'Mid-grade (89)',
   'Premium (91–93)',
-  'Diesel (selected stations)',
 ]
 
 const storeEssentials = ['Bottled beverages', 'Snacks', 'Coffee', 'Car care fluids and items']
@@ -89,7 +87,7 @@ function App() {
         <div className="hero-content">
           <p className="eyebrow">Fueling Cleveland With Quality Petroleum Products</p>
           <h1>
-            High-quality gasoline and diesel backed by strict safety standards, modern pumps, and
+            High-quality gasoline backed by strict safety standards, modern pumps, and
             dependable service across all our Cleveland locations.
           </h1>
           <p className="hero-lede">
@@ -178,7 +176,7 @@ function App() {
 
           <div className="location-grid">
             <article className="info-card location-card">
-              <h3>Location 1</h3>
+              <h3>Location</h3>
               <p className="address">14021 St Clair Ave, Cleveland, OH 44110</p>
               <p className="hours">Hours: 6 AM – 11 PM</p>
               <h4>Services</h4>
