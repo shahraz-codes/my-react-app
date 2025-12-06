@@ -12,7 +12,7 @@ const heroHighlights = [
   },
   {
     title: 'Clean Stores',
-    detail: 'Convenience essentials only — no lottery or alcohol',
+    detail: 'Convenience essentials only',
   },
 ]
 
@@ -46,7 +46,7 @@ const commitments = [
 
 const locationServices = [
   'Regular, Mid-Grade, Premium Fuel',
-  'Convenience store (No lottery, no alcohol)',
+  'Convenience store',
   'Drinks, snacks, coffee',
   'Automotive products',
   'Air pump and clean restrooms',
@@ -118,7 +118,6 @@ function App() {
             ))}
           </ul>
           <h3>Convenience Store Essentials</h3>
-          <p className="muted">(No lottery or alcohol)</p>
           <ul>
             {convenienceItems.map(item => (
               <li key={item}>{item}</li>
