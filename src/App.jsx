@@ -171,14 +171,14 @@ function App() {
           <div className="section-heading">
             <p className="eyebrow">Locations & Services</p>
             <h2>Stop in at 14021 St Clair Ave, Cleveland, OH 44110</h2>
-            <p className="muted">Hours: 6 AM – 11 PM · Every pump inspected and calibrated regularly.</p>
+            <p className="muted">Open 24 hours · Every pump inspected and calibrated regularly.</p>
           </div>
 
           <div className="location-grid">
             <article className="info-card location-card">
               <h3>Location</h3>
               <p className="address">14021 St Clair Ave, Cleveland, OH 44110</p>
-              <p className="hours">Hours: 6 AM – 11 PM</p>
+              <p className="hours">Open 24 hours</p>
               <h4>Services</h4>
               <ul>
                 {locationServices.map(service => (
