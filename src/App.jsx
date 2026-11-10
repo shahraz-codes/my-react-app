@@ -154,9 +154,9 @@ function App() {
           <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
           <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
           <a href="#locations" onClick={() => setMenuOpen(false)}>Locations & Services</a>
-          <a href="#careers" aria-current={isCareers ? 'page' : undefined} onClick={() => setMenuOpen(false)}>
+          {/* <a href="#careers" aria-current={isCareers ? 'page' : undefined} onClick={() => setMenuOpen(false)}>
             Careers
-          </a>
+          </a> */}
         </div>
       </nav>
 
